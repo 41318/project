@@ -1,0 +1,22 @@
+.header{
+	background-color: grey;
+	margin: 15px 5px 5px 5px;
+	border: 1px red;
+}
+.menu{
+	padding: 45px 10px 10px 10px;
+	display:flex;
+	justify-content:space-around;
+	flex-direction:row;
+}
+.menu_det{
+	
+}
+.bod{
+	display:flex;
+	flex-direction: column;
+}
+.blocks{
+	background-color: grey;
+	margin:10px;
+}
