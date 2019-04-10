@@ -1,3 +1,7 @@
+<?php 
+include('includes/header.php');
+?>
+
 <div class="blocks">
 		a
 	</div>
@@ -9,9 +13,5 @@
 		 	c
 		</div>
 	</div>
-	<footer>
-		
-	</footer>
 
-</body>
-</html>
+<?php include('includes/footer.php'); ?>
