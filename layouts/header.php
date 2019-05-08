@@ -13,18 +13,18 @@
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
-		  <a class="navbar-brand" href="#">Navbar</a>
+		  <a class="navbar-brand" href="#">Main</a>
 
 		  <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
 		    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 		      <li class="nav-item active">
-		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Link</a>
+		        <a class="nav-link" href="#">Something</a>
 		      </li>
 		      <li class="">
-		        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contacts</a>
+		        <button class="nav-link btn btn-primary" href="#" tabindex="" aria-disabled="true" data-toggle="modal" data-targer="#exampleModal">Contacts</button>
 		      </li>
 		    </ul>
 		    <form class="form-inline my-2 my-lg-0">
@@ -34,24 +34,26 @@
 		  </div>
 		</nav>
     </header>
-	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-	  <div class="carousel-inner">
-	    <div class="carousel-item active">
-	      <img src="photos/12.jpg" class="d-block w-100" alt="">
-	    </div>
-	    <div class="carousel-item">
-	      <img src="photos/grave.jpg" class="d-block w-100" alt="">
-	    </div>
-	    <div class="carousel-item">
-	      <img src="photos/hand.jpg" class="d-block w-100" alt="">
+	<!-- Button trigger modal <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>-->
+<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        ...
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
 	    </div>
 	  </div>
-	  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Previous</span>
-	  </a>
-	  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Next</span>
-	  </a>
 	</div>
