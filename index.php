@@ -9,7 +9,7 @@
 		        <img src="http://anband.spb.ru/images/100/DSC100112570.jpg" class="d-block w-100" alt="...">
 		    </div>
 		    <div class="carousel-item">
-		        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlm14oqpdQjWe4gjPP57yOxVKvwmcTfnvIODUcLLx13_KrUn8u5Q" class="d-block w-100" alt="...">
+		        <img src="" class="d-block w-100" alt="...">
 		    </div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -21,6 +21,34 @@
 		    <span class="sr-only">Next</span>
 		</a>
 	</div>
+</div>
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary  display-flex justify-content-center mt-3" data-toggle="modal" data-target="#exampleModal">
+  Here is the modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Onyn aldynda bolmay zhatkan "copy&paste"<br>
+        Endi gana istedi)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 
