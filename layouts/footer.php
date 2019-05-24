@@ -3,8 +3,6 @@
 
 
 	<footer class="mt-3 bg-dark p-5 text-light row">
-		<img src="/photos/images.png">
-		Oraza kabyl bolsyn
 	</footer>
 
 
